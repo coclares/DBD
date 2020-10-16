@@ -11,14 +11,35 @@
     </head>
     <body background="Imágenes/Fondo gris oscuro.jpg">
         <div class="container">
-            <fieldset><br>
-                <legend>Datos-killer</legend>
-            Identificador killer: <input type="number"/><br>
-            Nombre Killer: <input type="text" placeholder="Nombre del Killer" /><br>    
-            Descripción Killer: <textarea rows="5" cols="50" placeholder="Breve descripción"></textarea>
-            <input type="submit" value="Buscar" />
-           </form>
-        </fieldset>
-        </div>
+            <form action="administrador.html" method="POST">
+                <legend>Datos-Killer</legend>
+            Identificador Killer: &nbsp;<input type="number"/><br>
+            Nombre Killer: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Nombre del Killer" /><br><br>
+            Imagen Killer: &nbsp;<input type="file" name="archivo"><br><br>
+            Descripción Killer: <br><textarea rows="5" cols="50" placeholder="Breve descripción"></textarea>
+            <br><input type="submit" value="Enviar" /> <input type="reset" value="Borrar">
+            </form>
+        </div><br>
+        <div class="container">
+            <form action="administrador.html" method="POST">
+                <legend>Datos-Survivor</legend>
+            Identificador Survivor: &nbsp;<input type="number"/><br>
+            Nombre Survivor: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Nombre del Survivor" /><br><br>
+            Imagen Survivor: &nbsp;<input type="file" name="archivo"><br><br>
+            Descripción Survivor: <br><textarea rows="5" cols="50" placeholder="Breve descripción"></textarea>
+            <br><input type="submit" value="Enviar" /><input type="reset" value="Borrar"><br>
+            </form>
+        </div><br>
+        <div class="container">
+            <form action="administrador.html" method="POST">
+            <legend>Datos-Habilidad</legend>
+            Identificador Habilidad: &nbsp;<input type="number"/><br>
+            Nombre Habilidad: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Nombre de la Habilidad" /><br><br>
+            Imagen Habilidad: &nbsp;<input type="file" name="archivo"><br><br>
+            Descripción Habilidad: <br><textarea rows="5" cols="50" placeholder="Breve descripción"></textarea>
+            <br><input type="submit" value="Enviar" /><input type="reset" value="Borrar"><br>
+            </form>
+        </div><br>
+        <center class="Boton-Salir"><button onclick="location.href='Login_Adm.html'"type="button" class="btn btn-primary">Salir</button></center>
     </body>
 </html>
