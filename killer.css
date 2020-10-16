@@ -1,5 +1,8 @@
 body{
-    background: "imagenes/fondo.jpg"
+    background-image: url("https://allegra.flowersetcfresno.com/pic/3311231_full-fondo-pantalla-hd-dead-by-daylight-dead-by-daylight-wallpaper-hd-download.jpg");
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -9,5 +12,12 @@ body{
 }
 .row{
     color:white;
-    
+}    
+.buscar{
+    color: white;
+    text-align: right; 
+    margin-top: 30px;
+}
+.container{
+    margin-top: -80px;
 }
