@@ -1,0 +1,33 @@
+body{
+
+     background:"imagenes/fondo.jpg"    
+    
+}
+
+.carrusel{
+
+    height: 50rem;
+    width: 50rem;
+    margin: auto;
+}
+.contenedor{
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    color:#FDFDFD ;
+    background-image: "imagenes/home.jpg";
+}
+.Toño{
+    float: right;
+}
+.Tomi{
+    float: left;
+}
+.Coni{
+    float: center;
+}
+.boton{
+    font-size: 35px;
+}
