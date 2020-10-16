@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <head>
+        <title>Login - Administrador</title>
+    </head>
+    <body>
+        <SCRIPT  language=JavaScript> 
+            function go(){
+                if (document.form.password.value=='123' && document.form.login.value=='KabuX'){ 
+                    document.form.submit(); 
+                } 
+                else{ 
+                    alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+                } 
+            } 
+        </SCRIPT>
+
+        <FORM name=form action="administrador.html">
+            <P>Nombre de Usuario:    <INPUT type=text name=login> 
+            <P>Contraseña de Usuario: <INPUT type=password name=password> 
+            <p><INPUT onclick=go() type=button value=Ingresar>
+        </FORM> 
+    </body>
+</html>
